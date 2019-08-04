@@ -1,0 +1,24 @@
+{
+  "name": "typescript.promises",
+  "version": "1.0.0",
+  "description": "Promises using Typescript/JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-build": "tsc ./src/*.ts",
+    "ts-clean": "rm ./src/*.js ./src/*/*.js"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "typescript",
+    "promises"
+  ],
+  "author": "Jake Kwon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.39",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}

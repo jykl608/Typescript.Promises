@@ -1,0 +1,4 @@
+# exclude the following files and directories
+
+/node_modules
+/node_modules/*
