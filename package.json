@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ts-build": "tsc ./src/*.ts",
-    "ts-clean": "rm ./src/*.js ./src/*/*.js"
+    "ts-build": "tsc ./src/*.ts ./src/definitions/*.ts",
+    "ts-clean": "rm ./src/*.js ./src/definitions/*.js"
   },
   "keywords": [
     "javascript",

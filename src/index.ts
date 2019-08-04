@@ -1,4 +1,4 @@
-import { Product } from './definitions'
+// import { Product } from './definitions'
 
 const products: Product[] = [
   {
@@ -46,6 +46,8 @@ this.window.onload = function() {
         console.log(item.name + '\t' + item.category + '\t' + item.price)
       })
     }
-    this.window.alert(message)
+    // this.window.alert(message)
+    console.log(message)
+    console.log(data)
   })
 }

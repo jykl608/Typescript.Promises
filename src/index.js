@@ -1,5 +1,4 @@
-"use strict";
-exports.__esModule = true;
+// import { Product } from './definitions'
 var products = [
     {
         name: 'iPhone XR',
@@ -45,6 +44,8 @@ this.window.onload = function () {
                 console.log(item.name + '\t' + item.category + '\t' + item.price);
             });
         }
-        this.window.alert(message);
+        // this.window.alert(message)
+        console.log(message);
+        console.log(data);
     });
 };
